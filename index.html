@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="p-5 container" id="corpo">
+    <section class="p-5">
+        <header class="pb-3">
+            <h1 class="display-2 fs-2 text-white text-center">
+                <i>
+                    Verificador de numeros
+                </i>
+            </h1>
+        </header>
+        <main class="bg-light rounded p-5">
+            <div class="pt-1">
+                <p>
+                    Digite um numero (entre 1 e 100):
+                    <input type="number" class="form-control py-1" id="n1">
+                    <div class="py-1">
+                        <button onclick="add()" class="py-2">
+                            Adicionar
+                        </button>
+                    </div>
+                </p>
+            </div>
+            <div class="py-1">
+                <select name="verificador de numeros" id="vdn" class="form-control" size="4">
+                    <option>
+                        Digite um numero acima
+                    </option>
+                </select>
+            </div>
+            <div class="pt-2">
+                <button onclick="finalizar()" class="py-2">
+                    Finalizar
+                </button>
+            </div>
+            <div id="res" class="pt-3">
+                <p>
+                    Preparando para os calculos.
+                </p>
+            </div>
+        </main>
+        <footer>
+            <h1 class="display-4 fs-3 text-center text-white pt-4">
+                <i>
+                    &copy;Exercícios Vinicius Cesar 
+                </i>
+            </h1>
+        </footer>
+    </section>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="script.js"></script>
+</body>
+
+
+</html>
